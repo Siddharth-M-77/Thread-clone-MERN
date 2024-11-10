@@ -7,21 +7,19 @@ import Search from "./pages/Protected/Search";
 import Home from "./pages/Protected/Home";
 import ErrorPage from "./pages/ErrorPage";
 import Register from "./pages/Protected/Register";
+import { Box } from "@mui/material";
+import ProtectedLayout from "./pages/Protected/ProtectedLayout";
 
 function App() {
   return (
-    <>
-    <Header/>
+    <Box>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/search" element={<Search />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="*" element={<ErrorPage />} />
-        {/* <Route path="/user" element={<Post />} /> */}
-        {/* <Route path="/post" element={<Post />} /> */}
-      
+        <Route path="/" element={<ProtectedLayout/>}>
+          <Route path="" element={<Home/>}/>
+          <Route path="/search" element={<Search/>}/>
+        </Route>
       </Routes>
-    </>
+    </Box>
   );
 }
 
