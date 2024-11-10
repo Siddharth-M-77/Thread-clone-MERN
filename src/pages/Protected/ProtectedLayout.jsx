@@ -5,8 +5,16 @@ import { Stack } from "@mui/material";
 
 const ProtectedLayout = () => {
   return (
-    <Stack flexDirection={'column'} maxWidth={'800px'} minWidth={'100%'} mx={'auto'} overflow={'hidden'}>
-    <Header/>
+    <Stack
+      flexDirection={"column"}
+      minHeight={'100vh'}
+      height={'79vh'}
+      maxWidth={"800px"}
+      minWidth={"100%"}
+      mx={"auto"}
+      overflow={"hidden"}
+    >
+      <Header />
       <Outlet />;
     </Stack>
   );

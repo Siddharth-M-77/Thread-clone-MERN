@@ -1,11 +1,29 @@
-import React from 'react'
+import React from "react";
+import InputComonent from "../../components/home/InputComonent";
+import { Stack } from "@mui/material";
+import Post from "../../components/home/Post";
 
 const Home = () => {
   return (
-    <div>
-      home hu mai
-    </div>
-  )
-}
+    <Stack height={'100vh'}>
+      <InputComonent />
+      <Stack
+        flexDirection={"column"}
+        mb={10}
+        gap={2}
+        sx={{ overflowY: "auto" }}
+        maxHeight={"80vh"}
+      >
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+      </Stack>
+    </Stack>
+  );
+};
 
-export default Home
+export default Home;

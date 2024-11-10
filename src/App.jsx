@@ -12,11 +12,11 @@ import ProtectedLayout from "./pages/Protected/ProtectedLayout";
 
 function App() {
   return (
-    <Box>
+    <Box minHeight={"100vh"}>
       <Routes>
-        <Route path="/" element={<ProtectedLayout/>}>
-          <Route path="" element={<Home/>}/>
-          <Route path="/search" element={<Search/>}/>
+        <Route path="/" element={<ProtectedLayout />}>
+          <Route path="" element={<Home />} />
+          <Route path="/search" element={<Search />} />
         </Route>
       </Routes>
     </Box>
