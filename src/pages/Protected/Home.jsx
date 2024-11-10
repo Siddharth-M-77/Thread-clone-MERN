@@ -5,7 +5,7 @@ import Post from "../../components/home/Post";
 
 const Home = () => {
   return (
-    <Stack height={'100vh'}>
+    <Stack height={"100%"}>
       <InputComonent />
       <Stack
         flexDirection={"column"}
@@ -13,6 +13,8 @@ const Home = () => {
         gap={2}
         sx={{ overflowY: "auto" }}
         maxHeight={"80vh"}
+        borderRadius={"20px"}
+        overflow={"hidden"}
       >
         <Post />
         <Post />
