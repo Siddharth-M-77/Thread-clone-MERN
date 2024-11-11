@@ -12,13 +12,15 @@ const Post = () => {
       flexDirection={"row"}
       justifyContent={"space-between"}
       alignItems={"start"}
-      p={2}
+      p={3}
       width={"50%"}
       mx={"auto"}
       bgcolor={"#181818"}
       color={"white"}
       minHeight={"80vh"}
       borderRadius={"20px"}
+
+
       sx={{
         ":hover": {
           cursor: "pointer",

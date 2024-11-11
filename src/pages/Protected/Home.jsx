@@ -10,12 +10,16 @@ const Home = () => {
       <Stack
         flexDirection={"column"}
         mb={10}
-        gap={2}
+        gap={1}
         sx={{ overflowY: "auto" }}
         maxHeight={"80vh"}
         borderRadius={"20px"}
         overflow={"hidden"}
       >
+        <Post />
+        <Post />
+        <Post />
+        <Post />
         <Post />
       </Stack>
     </Stack>
