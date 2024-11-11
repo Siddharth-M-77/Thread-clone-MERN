@@ -7,6 +7,7 @@ import PostOne from "./Post/Postone";
 const Post = () => {
   return (
     <Stack
+    
       flexDirection={"row"}
       justifyContent={"space-between"}
       alignItems={"start"}
