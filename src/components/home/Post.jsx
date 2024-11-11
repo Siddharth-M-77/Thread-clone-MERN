@@ -2,12 +2,12 @@ import { Avatar, Stack, Typography } from "@mui/material";
 import React from "react";
 import { BsThreeDots } from "react-icons/bs";
 import PostTwo from "./Post/PostTwo";
-import PostOne from "./Post/Postone";
+import PostOne from "./Post/PostOne";
 
 const Post = () => {
   return (
     <Stack
-    
+
       flexDirection={"row"}
       justifyContent={"space-between"}
       alignItems={"start"}
