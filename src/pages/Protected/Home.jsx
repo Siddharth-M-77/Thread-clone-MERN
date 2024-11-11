@@ -17,12 +17,6 @@ const Home = () => {
         overflow={"hidden"}
       >
         <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
       </Stack>
     </Stack>
   );

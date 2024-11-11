@@ -14,6 +14,8 @@ function App() {
   return (
     <Box minHeight={"100vh"}>
       <Routes>
+        <Route path="register" element={<Register />} />
+
         <Route path="/" element={<ProtectedLayout />}>
           <Route path="" element={<Home />} />
           <Route path="/search" element={<Search />} />
