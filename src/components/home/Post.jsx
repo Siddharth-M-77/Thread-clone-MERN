@@ -1,8 +1,9 @@
 import { Avatar, Stack, Typography } from "@mui/material";
 import React from "react";
 import { BsThreeDots } from "react-icons/bs";
-import PostTwo from "./Post/PostTwo";
-import PostOne from "./Post/PostOne";
+import PostTwo from"./Post/PostTwo"
+import Postone from "./Post/Postone";
+
 
 const Post = () => {
   return (
@@ -27,8 +28,8 @@ const Post = () => {
       }}
     >
       <Stack flexDirection={"row"} gap={2} height={"100%"}>
-        <PostOne />
-        <PostTwo />
+        <Postone />
+        <PostTwo/>
       </Stack>
       <Stack
         flexDirection={"row"}

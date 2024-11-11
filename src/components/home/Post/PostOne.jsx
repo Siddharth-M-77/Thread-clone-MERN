@@ -1,7 +1,7 @@
 import { Avatar, AvatarGroup, Badge, Stack, Stepper } from "@mui/material";
 import React from "react";
 
-const PostOne = () => {
+const Postone = () => {
   return (
     <Stack
       flexDirection={"column"}
@@ -61,4 +61,4 @@ const PostOne = () => {
   );
 };
 
-export default PostOne;
+export default Postone;
